@@ -1,0 +1,27 @@
+div.sticky{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  max-height: 100%;
+  max-width: 100%;
+}
+img.fit{
+  top: 0;
+  max-height: 100%;
+  max-width: 100%;
+  margin-bottom: 6px;
+}
+img.sticky{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  max-height: 100%;
+  max-width: 100%;
+}
+div{
+  font-size: 20px;
+}
+fbig{
+  font-size: 30px;
+}
+
