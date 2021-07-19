@@ -14,6 +14,6 @@ app.get('/ghana-math', function (req, res) {
 
 app.use(express.static('public'));
 
-var server = app.listen(5000, function () {
+var server = app.listen(process.env.PORT || 5000, function () {
     console.log('Node server is running..');
 });
