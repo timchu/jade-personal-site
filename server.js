@@ -11,6 +11,9 @@ app.get('/', function (req, res) {
 app.get('/ghana-math', function (req, res) {
     res.render('ghana-math.jade');
 });
+app.get('/mask-banao', function (req, res) {
+    res.render('mask-banao.jade');
+});
 
 app.use(express.static('public'));
 
