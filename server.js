@@ -14,6 +14,12 @@ app.get('/ghana-math', function (req, res) {
 app.get('/mask-banao', function (req, res) {
     res.render('mask-banao.jade');
 });
+app.get('/trump', function (req, res) {
+    res.render('trump.jade');
+});
+app.get('/code-ghana', function (req, res) {
+    res.render('code-ghana.jade');
+});
 
 app.use(express.static('public'));
 
