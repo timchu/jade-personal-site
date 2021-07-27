@@ -20,6 +20,12 @@ app.get('/trump', function (req, res) {
 app.get('/code-ghana', function (req, res) {
     res.render('code-ghana.jade');
 });
+app.get('/covid', function (req, res) {
+    res.render('covid');
+});
+app.get('/projects', function (req, res) {
+    res.render('projects');
+});
 
 app.use(express.static('public'));
 
