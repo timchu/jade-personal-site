@@ -35,6 +35,9 @@ fbig{
   font-size: 30px;
 }
 
+.center-text{
+  text-align:center;
+}
 .center-me{
   display: block;
   margin-left: auto;
