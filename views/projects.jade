@@ -6,7 +6,7 @@ block content
   div.container
     div.row
       div(class="col-lg-6")
-        div(class="box")
+        div(class="img-container")
           a(href="ghana-math" class="plain")
             div.row
               div(class="col-lg-6 col-md-5")
@@ -14,41 +14,45 @@ block content
                     img(class="fit" src="https://misemaths.files.wordpress.com/2021/07/123456-1.jpg")
               div(class="col-lg-6 col-md-7")
                 h3  Math Lessons in Ghana
-                p(style="font:15px") Identifying and nurturing Africa's top technical talent.
+                p(style="font:15px") Identifying and nurturing Africa's top technical talent. #[span(style="color:blue; text-decoration:underline") Read more.]
+            div(class="overlay")
+
+
                 
       div(class="col-lg-6")
-        div(class="box")
+        div(class="img-container")
           a(href="trump" class="plain")
             div.row
               div(class="col-lg-6 col-md-5")
-                div(class="img-container")
-                    img(class="fit", src="images/trump-bet1.png")
+                img(class="fit", src="images/trump-bet1.png")
               div(class="col-lg-6 col-md-7")
                 h3 Predicting Trump 2016
-                p(style="font:15px") Interviewing a hundred Trump supporters pre-election.
+                p(style="font:15px") Interviewing a hundred Trump supporters pre-election.   #[span(style="color:blue; text-decoration:underline") Read more.]
+            div(class="overlay")
 
       div(class="col-lg-6")
-        div(class="box")
+        div(class="img-container")
           a(href="mask-banao" class="plain")
             div.row
               div(class="col-lg-6 col-md-5")
-                div(class="img-container")
-                    img(class="fit", src="images/viccaji-2.png")
-                    div(class="overlay")
+                  img(class="fit", src="images/viccaji-2.png")
               div(class="col-lg-6 col-md-7")
                 h3 Masks for All in Pakistan
-                p Bringing Pakistan's mask prevalence from zero to widespread.
+                p Bringing Pakistan's mask prevalence from zero to widespread. #[span(style="color:blue; text-decoration:underline") Read more.]
+            div(class="overlay")
 
       div(class="col-lg-6")
-        div(class="box")
+        div(class="img-container")
           a(href="covid" class="plain")
             div.row
               div(class="col-lg-6 col-md-5")
-                a(href="covid")
-                  img(class="fit", src="images/covid.jpg")
+                img(class="fit", src="images/covid.jpg")
               div(class="col-lg-6 col-md-7")
                 h3 NOVID Pandemic Radar
-                p Building the first pandemic radar app in the world, in use by major US universities and cities.
+                p Building the first pandemic radar app in the world, in use by major US universities and cities. #[span(style="color:blue; text-decoration:underline") Read more.]
+            div(class="overlay")
+
+
 
       div(class="col-lg-3 col-md-5")
         div(class="img-container")
@@ -71,6 +75,7 @@ block content
         h3 Alphasheets: One Sheet to Rule Them All
         p Building the first spreadsheet that supports Python and other programming language commands directly in-sheet.
   div.footer
+//Hover overlay card.
 //div(class="col-lg-6")
 //  div(class="img-container")
 //    a(href="trump" class="plain")
@@ -82,3 +87,14 @@ block content
 //          h3 Predicting Trump 2016
 //          p(style="font:15px") Interviewing a hundred Trump supporters pre-election.
 //      div(class="overlay")
+// Box-Shadow card
+//      div(class="col-lg-6")
+//        div(class="box")
+//          a(href="covid" class="plain")
+//            div.row
+//              div(class="col-lg-6 col-md-5")
+//                a(href="covid")
+//                  img(class="fit", src="images/covid.jpg")
+//              div(class="col-lg-6 col-md-7")
+//                h3 NOVID Pandemic Radar
+//                p Building the first pandemic radar app in the world, in use by major US universities and cities. #[span(style="color:blue; text-decoration:underline") Read more.]
