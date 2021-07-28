@@ -21,28 +21,26 @@ block content
         //Alums have gone on to build startups in Zimbabwe, code at Google, do their masters at MIT, and more.
         br
         div.row
-          div(class="col-lg-6 col-md-6")
-            img(class="fit center-me", src="images/roni-edwin.jpg")
-          div(class="col-lg-6 col-md-6" style="margin-bottom:1.5cm")
+          div(class="col-lg-5")
+            img(class="fit center-me", style="width: 85%", src="images/roni-edwin.jpg")
+          div(class="col-lg-7")
             strong Roni Edwin (left) is a member of the Ghana IMO team.  This photo was taken with the President of Ghana (right).   
             span In 2020, Roni became the seventh black individual in history to medal at the IMO. 
-
-          div(class="col-lg-6 col-md-6")
-            img(class="fit center-me", src="images/jessica-2.png")
-          div(class="col-lg-6 col-md-6" style="margin-bottom:1.5cm")
-            strong Computer scientist Jessica Quaye won MIT's top engineer award in 2020.  
-            span She was selected from over a thousand students from every engineering discipline at MIT. Jessica participated in the MISE program in 2015.
-          div(class="col-lg-6 col-md-6")
-            img(class="fit", src="images/jesse-suit.png", style="width:100%")
-          div(class="col-lg-6 col-md-6" style="margin-bottom:1.5cm")
-            strong Jesse Phillips writes software for Google, graduated from Cornell, and organized a coding workshop reaching hundreds in West Africa.  
-            span Jesse was a member of the Ghana IMO team, who I taught from 2012-2015.
+          br
+        //img(class="fit center-me", style="width:90%", src="images/jessica-quaye.png")
+        strong Computer scientist Jessica Quaye won MIT's top engineer award in 2020.  
+        span She was selected from over a thousand students from every engineering discipline at MIT. Jessica participated in the MISE program in 2015.
         br
+        br
+        br
+      //div(class="col-lg-3 col-md-6 offset-lg-2", style="margin-bottom: 1.5cm")
+        //img(class="fit", src="images/jesse-suit.png")
+      div(class="col-lg-5 col-md-6 offset-lg-2", style="margin-bottom: 1.5cm")
+        strong Jesse Phillips writes software for Google, graduated from Cornell, and organized a coding workshop reaching hundreds in West Africa.  
+        span Jesse was a member of the Ghana IMO team, who I taught from 2012-2015.
+      div(class="col-lg-8 offset-lg-2", style="margin-bottom: 1.5cm")
         strong Alex Bechtold was named the #[a(href="https://materials.princeton.edu/education/undergraduate/student-awards/outstanding-materials-student-award") top material science student in all of Princeton] in 2020. 
         span He has studied nanomaterials at Princeton and helped improve water quality in the Dominican Republic. Alex was a member of the IMO team from Ghana, who I taught in 2015. 
-        br
-        br
-
       div(class="col-lg-8 offset-lg-2")
         h2(style="text-align:center") Testimonials
         p 
@@ -55,7 +53,7 @@ block content
         br
         h2(style="text-align:center") Get Involved
         p  If you'd like to help us, email me at #[a(href="mailto:timothyzchu@gmail.com") timothyzchu [at] gmail [dot] com!] We are looking for volunteer math mentors, computer science mentors, research mentors, and web managers. Thank you!
-        img(class="fit center-me", src="images/mise-tim.png", style="width:80%; margin-bottom: 1.5cm")
+        img(class="fit", src="images/mise-tim.png", style="margin-bottom: 1.5cm")
         br
   div.footer
 //        h2 Ongoing Challenges
