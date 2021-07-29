@@ -95,7 +95,7 @@ li a {
   
 }
 .box:hover {
-  box-shadow: 3px 3px 20px rgba(0,0,0,.3); 
+  box-shadow: 5px 5px 50px rgba(0,0,0,.3); 
 }
 
 .plain{
