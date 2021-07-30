@@ -44,7 +44,7 @@ fbig{
   margin-right: auto;
 }
 
-ul {
+ul.bar {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -52,8 +52,9 @@ ul {
   background-color: #333;
 }
 
-li {
+li.white {
   float: left;
+  color: white;
 }
 
 li a {

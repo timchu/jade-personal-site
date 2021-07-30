@@ -26,8 +26,8 @@ app.get('/covid', function (req, res) {
 app.get('/projects', function (req, res) {
     res.render('projects');
 });
-app.get('/resume', function (req, res) {
-    res.render('resume');
+app.get('/whats-cooking', function (req, res) {
+    res.render('whats-cooking');
 });
 
 app.use(express.static('public'));
