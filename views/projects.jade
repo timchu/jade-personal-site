@@ -2,11 +2,12 @@ extends layout
 
 block content
   div.container
-    h1(style="text-align:center") Stuff I've Worked On
-    //p Here are some of my personal projects. Click on a project that interests you!
+    h1(class="text-center") Stuff I've Worked On
+    //p Here are a couple projects I've worked on. Click on a project that interests you!
+    p(class="text-center") I love poking around the world and seeing what interesting things can be done. 
     div.row
       div(class="col-lg-6")
-        div(class="img-container")
+        div(class="box")
           a(href="ghana-math" class="plain")
             div.row
               div(class="col-lg-6 col-md-5")
@@ -16,7 +17,7 @@ block content
                 h3  Math Education in Ghana
                 p(style="font-size:20px") Identifying and nurturing Africa's top technical talent. 
                 p #[span(style="color:blue; text-decoration:underline") Read more.]
-            div(class="overlay")
+            //div(class="overlay")
 
 
 
@@ -33,7 +34,7 @@ block content
             //div(class="overlay")
                 
       div(class="col-lg-6")
-        div(class="img-container")
+        div(class="box")
           a(href="trump" class="plain")
             div.row
               div(class="col-lg-6 col-md-5")
@@ -42,10 +43,10 @@ block content
                 h3 Predicting Trump 2016
                 p(style="font-size:20px") Betting thousands on a 2016 Trump victory after interviewing a hundred Trump supporters.
                 p #[span(style="color:blue; text-decoration:underline") Read more.]
-            div(class="overlay")
+            //div(class="overlay")
 
       div(class="col-lg-6")
-        div(class="img-container")
+        div(class="box")
           a(href="covid" class="plain")
             div.row
               div(class="col-lg-6 col-md-5")
@@ -55,12 +56,13 @@ block content
                 p(style="font-size:20px") Building the first pandemic radar app in the world, in use by major US universities and cities.
                 p 
                   span(style="color:blue; text-decoration:underline") Read more
-            div(class="overlay")
+            //div(class="overlay")
 
 
 
       div(class="col-lg-6")
-        div(class="img-container")
+        //div(class="img-container")
+        div(class="box")
           a(href="code-ghana" class="plain")
             div.row
               div(class="col-lg-6 col-md-5")
@@ -68,40 +70,20 @@ block content
               div(class="col-lg-6 col-md-7")
                   h3 Coding Classes in Ghana
                   p(style="font-size:20px") Creating the best online coding lessons in Africa.
-            div(class="overlay")
+                  p(style="color:blue; text-decoration:underline") Read more
+            //div(class="overlay")
 
       div(class="col-lg-3 col-md-5")
         img(class="fit", src="images/ethiopia-food.png")
       div(class="col-lg-3 col-md-7")
         h3 Community Lunch Promoting Science in Ethiopia
-        p(style="font-size:20px") How I got 3000 dollars stuck in Ethiopia, and let an Ethiopian student use it to do a project important to him.
+        p(style="font-size:20px") How I got 3000 dollars stuck in Ethiopia, and let an Ethiopian student spend it.
+        p(style="color:blue; text-decoration:underline") Coming soon!
 
       div(class="col-lg-3 col-md-5")
         img(class="fit", src="images/alphasheet-python.png")
       div(class="col-lg-3 col-md-7")
         h3 Alphasheets: One Sheet to Rule Them All
         p(style="font-size:20px") Making the first spreadsheet that supports Python and R commands directly in-sheet.
+        p(style="color:blue; text-decoration:underline") Coming soon!
   div.footer
-//Hover overlay card.
-//div(class="col-lg-6")
-//  div(class="img-container")
-//    a(href="trump" class="plain")
-//      div.row
-//        div(class="col-lg-6 col-md-5")
-//          div(class="img-container")
-//              img(class="fit", src="images/trump-bet1.png")
-//        div(class="col-lg-6 col-md-7")
-//          h3 Predicting Trump 2016
-//          p(style="font-size:20px") Interviewing a hundred Trump supporters pre-election.
-//      div(class="overlay")
-// Box-Shadow card
-//      div(class="col-lg-6")
-//        div(class="box")
-//          a(href="covid" class="plain")
-//            div.row
-//              div(class="col-lg-6 col-md-5")
-//                a(href="covid")
-//                  img(class="fit", src="images/covid.jpg")
-//              div(class="col-lg-6 col-md-7")
-//                h3 NOVID Pandemic Radar
-//                p Building the first pandemic radar app in the world, in use by major US universities and cities. #[span(style="color:blue; text-decoration:underline") Read more.]
