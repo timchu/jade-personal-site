@@ -29,6 +29,9 @@ app.get('/projects', function (req, res) {
 app.get('/whats-cooking', function (req, res) {
     res.render('whats-cooking');
 });
+app.get('/covid-projection', function (req, res) {
+    res.render('covid-projection');
+});
 app.get('/about-me', function (req, res) {
     res.render('about-me');
 });
